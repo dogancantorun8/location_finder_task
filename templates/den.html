@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="{{ url_for("main")}}" method="post">
+<label for="firstlocation">Target  Location:</label>
+<input type="text" id="firstlocation" name="fname" placeholder="firstlocation" value="Moscow Ring Road"> <br><br>
+<label for="lastlocation">Last Location:</label>
+<input type="text" id="lastlocation" name="lname" placeholder="lastlocation"> <br><br>
+<button type="submit">Search</button>
+</body>
+</html>
+
